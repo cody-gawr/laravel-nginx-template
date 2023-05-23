@@ -30,7 +30,7 @@ jobs:
           script_stop: true
           command_timeout: 200m
           script: |
-            cd /home/apps/laravel-nginx-template
+            cd /home/laravel-nginx-template
             git pull
             make build
             make start
